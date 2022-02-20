@@ -1,83 +1,98 @@
 /* BG */
-body{
-position: absolute;
-width: 1512px;
-height: 795px;
-left: 0px;
-top: 0px;
-/*background-color: green;8*/
-/*background: linear-gradient(120.19deg, rgba(30, 58, 0, 0.8) 31.57%, rgba(86, 167, 0, 0.8) 94.34%);*/
-backdrop-filter: blur(39px);
-
+body {
+  position: absolute;
+  width: 1512px;
+  height: 795px;
+  left: 0px;
+  top: 0px;
+  backdrop-filter: blur(39px);
 }
-.bg1{
+.bgblurred {
+  position: absolute;
+  blur: 39px;
+}
+.bg1 {
   position: absolute;
   width: 413px;
   height: 497px;
   left: 199px;
   top: 174.3px;
-  }
-.bg2{
+}
+.bg2 {
   position: absolute;
   width: 316px;
   height: 381px;
   left: 1171px;
   top: 32.3px;
-  }
-.bg3{
-  position: absolute;
-width: 239px;
-height: 292px;
-left: 636px;
-top: 574px;
 }
-.logo{
+.bg3 {
   position: absolute;
-width: 63.32px;
-height: 74px;
-left: 40px;
-top: 29px;
+  width: 239px;
+  height: 292px;
+  left: 636px;
+  top: 574px;
+}
+.logo {
+  position: absolute;
+  width: 63.32px;
+  height: 74px;
+  left: 40px;
+  top: 29px;
 }
 /* National Youth Service Corps */
 
-.logoname{
-position: absolute;
-width: 250.94px;
-height: 24px;
-left: 120.12px;
-top: 44px;
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-color: #111026;
+.logoname {
+  position: absolute;
+  width: 250.94px;
+  height: 24px;
+  left: 120.12px;
+  top: 44px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #111026;
 }
 
 /* SERVICE AND HUMILITY */
-.motto{
-position: absolute;
-width: 145.37px;
-height: 20px;
-left: 120.12px;
-top: 68px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 19px;
-/* identical to box height */
-color: #111026;
-}
-.svg1{
+.motto {
   position: absolute;
-width: 417px;
-height: 657px;
-left: 914px;
-top: 126px;
-
+  width: 145.37px;
+  height: 20px;
+  left: 120.12px;
+  top: 68px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #111026;
 }
+.svg1 {
+  position: absolute;
+  width: 417px;
+  height: 657px;
+  left: 914px;
+  top: 126px;
+}
+.svgball {
+  position: absolute;
+  width: 435.32px;
+  height: 464px;
+  left: 905px;
+  top: 94px;
+}
+.menu {
+  position: absolute;
+  width: 893.2px;
+  height: 48px;
+  left: 578.8px;
+  top: 42px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -90,10 +105,15 @@ li {
 }
 
 li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 13px;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  margin: 61px;
   text-decoration: none;
 }
 
@@ -101,16 +121,69 @@ li a {
 li a:hover {
   background-color: #111;
 }
-{
+
+.bodytext {
   position: absolute;
-width: 412px;
-height: 140.29px;
-left: 178px;
-top: 166px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 75px;
-color: #FFFFFF;
+  width: 499px;
+  height: 484.92px;
+  left: 178px;
+  top: 166px;
+}
+
+/* Welcome to the NYSC Portal */
+body h1 {
+  position: absolute;
+  width: 412px;
+  height: 140.29px;
+  top: 166px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #ffffff;
+}
+body p {
+  position: absolute;
+  width: 499px;
+  height: 133px;
+  top: 343.92px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 154.69%;
+  color: #ffffff;
+}
+.button1 {
+  position: absolute;
+  width: 266px;
+  height: 57px;
+  left: 179px;
+  top: 593.92px;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  background: #0e3200;
+  border-radius: 6px;
+}
+.button2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 13px;
+  position: absolute;
+  width: 154.64px;
+  height: 48px;
+  left: 1317.36px;
+  top: 42px;
+
+  color: white;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 6px;
 }
