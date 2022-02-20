@@ -1,0 +1,116 @@
+/* BG */
+body{
+position: absolute;
+width: 1512px;
+height: 795px;
+left: 0px;
+top: 0px;
+/*background-color: green;8*/
+/*background: linear-gradient(120.19deg, rgba(30, 58, 0, 0.8) 31.57%, rgba(86, 167, 0, 0.8) 94.34%);*/
+backdrop-filter: blur(39px);
+
+}
+.bg1{
+  position: absolute;
+  width: 413px;
+  height: 497px;
+  left: 199px;
+  top: 174.3px;
+  }
+.bg2{
+  position: absolute;
+  width: 316px;
+  height: 381px;
+  left: 1171px;
+  top: 32.3px;
+  }
+.bg3{
+  position: absolute;
+width: 239px;
+height: 292px;
+left: 636px;
+top: 574px;
+}
+.logo{
+  position: absolute;
+width: 63.32px;
+height: 74px;
+left: 40px;
+top: 29px;
+}
+/* National Youth Service Corps */
+
+.logoname{
+position: absolute;
+width: 250.94px;
+height: 24px;
+left: 120.12px;
+top: 44px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #111026;
+}
+
+/* SERVICE AND HUMILITY */
+.motto{
+position: absolute;
+width: 145.37px;
+height: 20px;
+left: 120.12px;
+top: 68px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+color: #111026;
+}
+.svg1{
+  position: absolute;
+width: 417px;
+height: 657px;
+left: 914px;
+top: 126px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+{
+  position: absolute;
+width: 412px;
+height: 140.29px;
+left: 178px;
+top: 166px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+color: #FFFFFF;
+}
