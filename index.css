@@ -87,6 +87,10 @@ body {
   top: 94px;
 }
 .menu {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
   position: absolute;
   width: 893.2px;
   height: 48px;
@@ -114,7 +118,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  margin: 61px;
+  margin: 55px;
   text-decoration: none;
 }
 
@@ -179,8 +183,8 @@ body p {
   position: absolute;
   width: 154.64px;
   height: 48px;
-  left: 950.36px;
-  top: 43px;
+  left: 920.36px;
+  top: 42px;
   color: white;
   background-color: transparent;
   border: 3px solid #ffffff;
