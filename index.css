@@ -39,6 +39,7 @@ body {
   left: 40px;
   top: 29px;
 }
+
 /* National Youth Service Corps */
 
 .logoname {
@@ -46,7 +47,7 @@ body {
   width: 250.94px;
   height: 24px;
   left: 120.12px;
-  top: 44px;
+  top: 45px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -62,7 +63,7 @@ body {
   width: 145.37px;
   height: 20px;
   left: 120.12px;
-  top: 68px;
+  top: 69px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -76,7 +77,7 @@ body {
   width: 417px;
   height: 657px;
   left: 914px;
-  top: 126px;
+  top: 127px;
 }
 .svgball {
   position: absolute;
@@ -90,7 +91,7 @@ body {
   width: 893.2px;
   height: 48px;
   left: 578.8px;
-  top: 42px;
+  top: 1px;
 }
 
 ul {
@@ -178,12 +179,93 @@ body p {
   position: absolute;
   width: 154.64px;
   height: 48px;
-  left: 1317.36px;
-  top: 42px;
-
+  left: 950.36px;
+  top: 43px;
   color: white;
   background-color: transparent;
   border: 3px solid #ffffff;
   box-sizing: border-box;
   border-radius: 6px;
+}
+.body2 {
+  position: absolute;
+  width: 1056.83px;
+  height: 536px;
+  left: 228px;
+  top: 133px;
+}
+.allTodo {
+  position: absolute;
+  width: 452.63px;
+  height: 525px;
+  left: 964.15px;
+  top: 1227px;
+}
+.img-group img {
+  position: absolute;
+  width: 120.84px;
+  height: 108.09px;
+  left: 0px;
+  top: 0px;
+  margin-top: 30.88px;
+}
+.btn-group button {
+  width: 320.68px;
+  height: 107.96px;
+  left: 200.15px;
+  top: 1227px;
+  color: #618070; /* White text */
+  margin: 31px;
+  cursor: pointer;
+  background-color: #efffe2;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 0px 40px 40px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #618070;
+}
+.rectangle {
+  position: fixed;
+  width: 1255px;
+  height: 122px;
+  left: 128px;
+  top: 967px;
+  border: 2px dashed #3d4a3d;
+}
+.rectangle p {
+  position: absolute;
+  left: 158px;
+  top: 38px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 13px;
+  color: white;
+}
+.buttonRemob {
+  position: absolute;
+  width: 220px;
+  height: 47px;
+  top: 53.82px;
+  left: 877.03px;
+  background: #203023;
+  color: #fff;
+  border: 1px solid #023906;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.illus {
+  position: absolute;
+  width: 536px;
+  height: 536px;
+  left: 228px;
+  top: 1222px;
+  background: #ffffff;
 }
